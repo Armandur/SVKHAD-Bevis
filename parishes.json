@@ -1,0 +1,66 @@
+{
+    "DK": {
+        "name": "Härnösands domkyrkoförsamling",
+        "churches": [
+            "Härnösands domkyrka",
+            "Mariakapellet",
+            "Domkyrkoförsamlingen, Annan plats"
+        ]
+    },
+    "HE": {
+        "name": "Hemsö församling",
+        "churches": [
+            "Hemsö kyrka",
+            "Hemsö församling, Annan plats"
+        ]
+    },
+    "HÄ": {
+        "name": "Häggdånger församling",
+        "churches": [
+            "Häggdånger kyrka",
+            "Barsvikens kapell",
+            "Häggdånger församling, Annan plats"
+        ]
+    },
+    "HÖ": {
+        "name": "Högsjö församling",
+        "churches": [
+            "Högsjö kyrka",
+            "Högsjö gamla kyrka",
+            "Högsjö församling, Annan plats"
+        ]
+    },
+    "ST": {
+        "name": "Stigsjö församling",
+        "churches": [
+            "Stigsjö kyrka",
+            "Stigsjö församling, Annan plats"
+        ]
+    },
+    "VI": {
+        "name": "Viksjö församling",
+        "churches": [
+            "Viksjö kyrka",
+            "Viksjö församling, Annan plats"
+        ]
+    },
+    "SÄ": {
+        "name": "Säbrå församling",
+        "churches": [
+            "Säbrå kyrka",
+            "Säbrå församling, Annan plats"
+        ]
+    },
+    "LU": {
+        "name": "Säbrå församling",
+        "churches": [
+            "Lungö kapell"
+        ]
+    },
+    "ALLM": {
+        "name": "Annan plats",
+        "churches":[
+            "Annan plats"
+        ]
+    }
+}

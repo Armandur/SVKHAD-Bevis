@@ -1,0 +1,32 @@
+{
+    "directories":
+    {
+        "templates": "templates",
+        "output": "output"
+    },
+    "seasons":
+    {
+        "spring": 3,
+        "summer": 5,
+        "autumn": 9,
+        "winter": 11
+    },
+    "headers":
+    {
+        "Type": "Aktivitetstyp",
+        "Date": "Fråndatum",
+        "Location": "Plats",
+        "Priest": "Präst",
+        "BapName": "Dopkandidat Förnamn, fullständigt",
+        "BornDate": "Dopkandidat Födelsedatum",
+        "Godparents": "Faddrar",
+
+        "P1FirstName": "Person 1 Förnamn, fullständigt",
+        "P1LastName": "Person 1 Efternamn",
+        
+        "P2FirstName": "Person 2 Förnamn, fullständigt",
+        "P2LastName": "Person 2 Efternamn"
+    },
+    "delimiter": ",",
+    "quotechar": "\""
+}
