@@ -11,6 +11,19 @@
         "autumn": 9,
         "winter": 11
     },
+    "seasonsSV":
+    {
+        "spring": "vår",
+        "summer": "sommar",
+        "autumn": "höst",
+        "winter": "vinter"
+    },
+    "typesSV":
+    {
+        "Dop": "dop",
+        "Vigsel": "vigsel",
+        "godparent": "fadder"
+    },
     "headers":
     {
         "Type": "Aktivitetstyp",
