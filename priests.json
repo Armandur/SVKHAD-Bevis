@@ -17,6 +17,12 @@
     "Åsa Alexandersson"         :   "präst",
     "Mattias Huss"              :   "komminister",
     "Thord Hägglund"            :   "präst",
+    "Pastorsadjunkt Lena-Maria Oikarinen": "pastorsadjunkt",
+    "Lena-Maria Oikarinen"      :   "pastorsadjunkt",
+    "Jan Bränström"             :   "komminister",
+    "Sven-Erik Fjellström"      :   "präst",
+    "Tjänstgörande präst, Ytterförsamlingarna" : "tjänst",
+    "Tjänstgörande präst, Domkyrkoförsamlingen" : "tjänst",
     "Unknown"                   :   "tjänst",
     "Per Präst"                 :   "tjänst"
 }

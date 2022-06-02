@@ -105,6 +105,11 @@ def writeCertificates(events):
         templatePath = os.path.join(settings["directories"]["templates"], event.getTemplate())
         destinationPath = f"{event.date} - {event.type} - "
 
+        if not os.path.exists(templatePath):
+            print(f"Error processing {event}")
+            print(f"Template {event.getTemplate()} in directory [{settings['directories']['templates']}] doesn't exist.")
+            continue
+
         fieldValues = {}
         filename = f"{event.date} - {event.type}bevis - "
 
