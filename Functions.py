@@ -137,10 +137,14 @@ def writeCertificates(events):
                 "Namn": event.firstName,
                 "Dopnamn": event.firstName,
                 "Född": f"född den {event.birthDate.day}/{event.birthDate.month} {event.birthDate.year}, döptes den {event.date.day}/{event.date.month} {event.date.year}\ni {event.church}\noch tillhör Svenska kyrkan",
-                "Faddrar": ", ".join(event.godparents)
+                "Faddrar": ""
             })
 
             if event.godparents:
+                fieldValues.update({
+                    "Faddrar": f"Faddrar\n{', '.join(event.godparents)}"
+                })
+
                 godparentTemplatePath = os.path.join(settings["directories"]["templates"], event.getGodparentTemplate())
                 godparentFilename = f"{event.date} - Fadderbrev - {event.firstName} - "
 
