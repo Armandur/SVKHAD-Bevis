@@ -137,7 +137,7 @@ def writeCertificates(events):
                 "Prästnamn": f"{event.priest[0]}, {event.priest[1]}",
                 "Namn": event.firstName,
                 "Dopnamn": event.firstName,
-                "Född": f"född den {event.birthDate.day}/{event.birthDate.month} {event.birthDate.year}, döptes den {event.date.day}/{event.date.month} {event.date.year}\ni {event.church}\noch tillhör Svenska kyrkan",
+                "Född": f"född den {event.birthDate.day}/{event.birthDate.month} {event.birthDate.year} och döptes den {event.date.day}/{event.date.month} {event.date.year}\ni {event.church}\noch tillhör Svenska kyrkan",
                 "Faddrar": ""
             })
 
