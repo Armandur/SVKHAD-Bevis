@@ -5,6 +5,7 @@ import sys
 import pandas as pd
 import csv
 import os
+import shutil
 import datetime
 import pdf_form
 
@@ -151,6 +152,7 @@ def writeCertificates(events):
                 for godparent in event.godparents:
                     fieldValues["Faddernamn"] = godparent
                     pdf_form.update_form_values(godparentTemplatePath, os.path.join(jobPath, destinationPath, f"{godparentFilename} {godparent}.pdf"), fieldValues)
+                    shutil.copy(os.path.join(settings["directories"]["templates"], "Att vara fadder.pdf"), os.path.join(jobPath, destinationPath, f"Att vara fadder - {godparent}.pdf"))
         else:
             continue
                 
